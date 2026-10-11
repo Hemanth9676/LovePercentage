@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: linear-gradient(to right, lightcoral, hotpink);
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 30px;
+    background: lavenderblush;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px palevioletred;
+}
+
+h1 {
+    color: deeppink;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: dimgray;
+    margin-bottom: 15px;
+}
+
+
+.heart {
+    font-size: 65px;
+    margin: 15px;
+}
+input {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0;
+    border: 2px solid lightpink;
+    border-radius: 10px;
+    outline: none;
+}
+input:focus {
+    border-color: deeppink;
+}
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 10px;
+    background: deeppink;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: mediumvioletred;
+}
+#result {
+    margin: 20px 0;
+    color: deeppink;
+    font-size: 20px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+h2 {
+    color: darkmagenta;
+    margin-top: 25px;
+    font-size: 21px;
+}
+
+.history-button {
+    background: purple;
+}
+.history-item {
+    margin-top: 10px;
+    padding: 12px;
+    background: white;
+    border-radius: 8px;
+    color: darkslategray;
+    overflow-wrap: anywhere;
+}
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+}
